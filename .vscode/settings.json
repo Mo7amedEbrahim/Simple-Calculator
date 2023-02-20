@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "app.h": "c",
+        "lcd.h": "c",
+        "dio_interface.h": "c"
+    }
+}
