@@ -25,7 +25,7 @@ int main (void){
             LCD_WriteData4Bit(Key);
             Minus_Flag =1;
         }
-        else if(Key == '+' || (Key == '-' && Minus_Flag == 1 )|| Key == '*' || Key == '/' ){
+        else if(Key == '+' || Key == '-' || Key == '*' || Key == '/' ){
             Num1 = StrToInt(Buffer);
             Minus_Flag = 0;
             Buffer_Idx = 0;
@@ -52,6 +52,7 @@ int main (void){
         	SetArrToZero(Buffer);
         	Buffer_Idx = 0;
         	Num1=0;Num2=0;Operator=0;
+        	Minus_Flag = 0;
         }
     }
 }
