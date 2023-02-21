@@ -9,8 +9,7 @@
 
 #ifndef _LED_H
 #define _LED_H
-#include "../../MCAL/DIO/DIO_interface.h"
-#include "../../LIB/Error_States.h"
+
 
 ES_t LED_init(u8 DIO_PORT,u8 DIO_PIN);
 

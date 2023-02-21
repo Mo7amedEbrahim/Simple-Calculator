@@ -9,15 +9,9 @@
 
 #ifndef _LCD_H
 #define _LCD_H
-/*		Libraries Includes		*/
-#include "../../LIB/STD_TYPES.h"
-#include "../../LIB/BIT_MATH.h"
-#include <util/delay.h>
-/*		Configuration Includes	*/
-#include "LCD_cfg.h"
-/*		MCAL Includes			*/
-#include "../../MCAL/DIO/DIO_interface.h"
-#include "../../LIB/Error_States.h"
+
+
+
 
 
 ES_t LCD_8BitInitialize(void);

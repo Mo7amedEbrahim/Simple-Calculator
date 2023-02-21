@@ -1,3 +1,8 @@
+#include "../../LIB/STD_TYPES.h"
+#include "../../LIB/BIT_MATH.h"
+#include "../../LIB/Error_States.h"
+#include "DIO_register.h"
+
 #include "DIO_interface.h"
 
 

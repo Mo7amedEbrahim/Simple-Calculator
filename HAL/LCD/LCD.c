@@ -6,7 +6,15 @@
 /*************                VERSION : 1.00		          ***************************/
 /****************************************************************************************/
 /****************************************************************************************/
-
+/*		Libraries Includes		*/
+#include "../../LIB/STD_TYPES.h"
+#include "../../LIB/BIT_MATH.h"
+#include <util/delay.h>
+/*		MCAL Includes			*/
+#include "../../MCAL/DIO/DIO_interface.h"
+#include "../../LIB/Error_States.h"
+/*		Configuration Includes	*/
+#include "LCD_cfg.h"
 
 #include "LCD.h"
 
